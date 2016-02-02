@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/menu/scouting_form.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/menu/scouting_form.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/menu/bluetooth_sender.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/menu/bluetooth_sender.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/menu/pit_scouting_form.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/menu/pit_scouting_form.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/menu/settings.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/menu/settings.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/menu/scouting_data_viewer.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/menu/scouting_data_viewer.xml"
+    }
+]

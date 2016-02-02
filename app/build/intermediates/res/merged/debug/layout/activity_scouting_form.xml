@@ -1,0 +1,541 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/no_border"
+    android:paddingLeft="@dimen/no_border"
+    android:paddingRight="@dimen/no_border"
+    android:paddingTop="@dimen/no_border"
+    tools:context="com.example.stormgearsscouting.ScoutingForm">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblBasicInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Basic Team Information"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/lblMatchNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Match Number"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/txtMatchNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:focusable="true" />
+
+            <TextView
+                android:id="@+id/lblTeamNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Team Number"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/txtTeamNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/lblAlliance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Alliance"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <RadioGroup
+                android:id="@+id/allianceRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/optRed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Red"
+                    android:textSize="10dp" />
+
+                <RadioButton
+                    android:id="@+id/optBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Blue"
+                    android:textSize="10dp" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/lblAutonomous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Autonomous"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ProgressBar
+                android:id="@+id/progressBar3"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/lblAutoLowGoals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Number of Low Goals (Auto)"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:id="@+id/gridAutoLowPicker"
+                android:columnCount="3"
+                android:rowCount="1">
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:id="@+id/btnALMinus"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_margin="0dp" />
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="0"
+                    android:id="@+id/lblALNum"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/btnALMinus"
+                    android:layout_column="1"
+                    android:layout_row="0"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:id="@+id/btnALPlus"
+                    android:layout_marginStart="33dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/lblALNum"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:layout_margin="0dp" />
+            </GridLayout>
+
+            <TextView
+                android:id="@+id/lblAutoHighGoals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Number of High Goals (Auto)"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:id="@+id/layoutNumPickAH" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:rowCount="9"
+                android:columnCount="3"
+                android:id="@+id/gridAutoDefenses">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  Low Bar"
+                    android:id="@+id/lblMLowBar"
+                    android:layout_column="0"
+                    android:layout_row="0" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spnID0DefenseAutoStatus"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:entries="@array/auto_defense_status" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  Portcullis"
+                    android:id="@+id/lblMPortcullis"
+                    android:layout_column="0"
+                    android:layout_row="1" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spnID1DefenseAutoStatus"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:entries="@array/auto_defense_status" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  Chival de Frise"
+                    android:id="@+id/lblMCdf"
+                    android:layout_column="0"
+                    android:layout_row="2" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spnID2DefenseAutoStatus"
+                    android:layout_row="2"
+                    android:layout_column="1"
+                    android:entries="@array/auto_defense_status" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  Moat"
+                    android:id="@+id/lblMMoat"
+                    android:layout_column="0"
+                    android:layout_row="3" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spnID3DefenseAutoStatus"
+                    android:layout_row="3"
+                    android:layout_column="1"
+                    android:entries="@array/auto_defense_status" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  Ramparts"
+                    android:id="@+id/lblMRamparts"
+                    android:layout_column="0"
+                    android:layout_row="4" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spnID4DefenseAutoStatus"
+                    android:layout_row="4"
+                    android:layout_column="1"
+                    android:entries="@array/auto_defense_status" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  Drawbridge"
+                    android:id="@+id/lblMDrawbridge"
+                    android:layout_column="0"
+                    android:layout_row="5" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spnID5DefenseAutoStatus"
+                    android:layout_row="5"
+                    android:layout_column="1"
+                    android:entries="@array/auto_defense_status" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  Sallyport"
+                    android:id="@+id/lblMSallyport"
+                    android:layout_column="0"
+                    android:layout_row="6" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spnID6DefenseAutoStatus"
+                    android:layout_row="6"
+                    android:layout_column="1"
+                    android:entries="@array/auto_defense_status" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  Rock Wall"
+                    android:id="@+id/lblMRockWall"
+                    android:layout_column="0"
+                    android:layout_row="7" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spnID7DefenseAutoStatus"
+                    android:layout_row="7"
+                    android:layout_column="1"
+                    android:entries="@array/auto_defense_status" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  Rough Terrain"
+                    android:id="@+id/lblMRoughTerrain"
+                    android:layout_column="0"
+                    android:layout_row="8" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spnID8DefenseAutoStatus"
+                    android:layout_row="8"
+                    android:layout_column="1"
+                    android:entries="@array/auto_defense_status" />
+
+            </GridLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="  Teleop"
+                android:id="@+id/lblTeleop" />
+
+            <ProgressBar
+                android:id="@+id/progressBar2"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:rowCount="9"
+                android:columnCount="3"
+                android:id="@+id/gridTeleopDefenses" >
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spnID0DefenseTeleopStatus"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:entries="@array/teleop_defense_status" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spnID1DefenseTeleopStatus"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:entries="@array/teleop_defense_status" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spnID2DefenseTeleopStatus"
+                    android:layout_row="2"
+                    android:layout_column="1"
+                    android:entries="@array/teleop_defense_status" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spnID3DefenseTeleopStatus"
+                    android:layout_row="3"
+                    android:layout_column="1"
+                    android:entries="@array/teleop_defense_status" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spnID4DefenseTeleopStatus"
+                    android:layout_row="4"
+                    android:layout_column="1"
+                    android:entries="@array/teleop_defense_status" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spnID5DefenseTeleopStatus"
+                    android:layout_row="5"
+                    android:layout_column="1"
+                    android:entries="@array/teleop_defense_status" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spnID6DefenseTeleopStatus"
+                    android:layout_row="6"
+                    android:layout_column="1"
+                    android:entries="@array/teleop_defense_status" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spnID7DefenseTeleopStatus"
+                    android:layout_row="7"
+                    android:layout_column="1"
+                    android:entries="@array/teleop_defense_status" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spnID8DefenseTeleopStatus"
+                    android:layout_row="8"
+                    android:layout_column="1"
+                    android:entries="@array/teleop_defense_status" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  Low Bar"
+                    android:id="@+id/lblMLowBar2"
+                    android:layout_column="0"
+                    android:layout_row="0" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  Portcullis"
+                    android:id="@+id/lblMPortcullis2"
+                    android:layout_column="0"
+                    android:layout_row="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  Chival de Frise"
+                    android:id="@+id/lblMCdf2"
+                    android:layout_column="0"
+                    android:layout_row="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  Moat"
+                    android:id="@+id/lblMMoat2"
+                    android:layout_column="0"
+                    android:layout_row="3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  Ramparts"
+                    android:id="@+id/lblMRamparts2"
+                    android:layout_column="0"
+                    android:layout_row="4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  Drawbridge"
+                    android:id="@+id/lblMDrawbridge2"
+                    android:layout_column="0"
+                    android:layout_row="5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  Sallyport"
+                    android:id="@+id/lblMSallyport2"
+                    android:layout_column="0"
+                    android:layout_row="6" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  Rock Wall"
+                    android:id="@+id/lblMRockwall2"
+                    android:layout_column="0"
+                    android:layout_row="7" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  Rough Terrain"
+                    android:id="@+id/lblMRoughTerrain2"
+                    android:layout_column="0"
+                    android:layout_row="8" />
+
+            </GridLayout>
+
+            <TextView
+                android:id="@+id/lblTotalAlliancePoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Total Alliance Points"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/txtTotalPoints"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This Match is a Qualifier"
+                android:id="@+id/chkIsQualifier" />
+
+            <Button
+                android:id="@+id/btnSubmitScoutForm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit Scout Form" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_action_bar_decor.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_action_bar_decor.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_action_bar_home.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_action_bar_home.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_action_bar_tab.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_action_bar_tab.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/activity_scouting_form.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/layout/activity_scouting_form.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/activity_bluetooth_sender.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/layout/activity_bluetooth_sender.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_action_bar_decor_overlay.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_action_bar_decor_overlay.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/activity_settings.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_include.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_simple_decor.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_simple_decor.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_action_mode_close_item.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/activity_scouting_data_viewer.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/layout/activity_scouting_data_viewer.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_action_bar_decor_include.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_action_bar_decor_include.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/activity_match_scouting_help.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/layout/activity_match_scouting_help.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_action_bar_tabbar.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_action_bar_tabbar.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/activity_pit_scouting_form.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/layout/activity_pit_scouting_form.xml"
+    }
+]

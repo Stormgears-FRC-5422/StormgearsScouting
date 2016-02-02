@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Stormgears Scouting</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scouting_form">Scouting Form</string>
+    <string name="title_activity_scouting_data_viewer">Scouting Data Viewer</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_bluetooth_sender">Bluetooth Sender</string>
+    <string name="title_activity_pit_scouting_form">Pit Scouting Form</string>
+    <string name="title_activity_match_scouting_help">MatchScoutingHelp</string>
+
+</resources>

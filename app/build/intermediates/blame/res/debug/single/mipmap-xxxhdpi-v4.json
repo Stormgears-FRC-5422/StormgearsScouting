@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/portcullis.png",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/mipmap-xxxhdpi/portcullis.png"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/sallyport.png",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/mipmap-xxxhdpi/sallyport.png"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/cdf_pic.png",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/mipmap-xxxhdpi/cdf_pic.png"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ramparts.png",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/mipmap-xxxhdpi/ramparts.png"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/rock_wall.png",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/mipmap-xxxhdpi/rock_wall.png"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/drawbridge.png",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/mipmap-xxxhdpi/drawbridge.png"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/moat.png",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/mipmap-xxxhdpi/moat.png"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/rough_terrain.png",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/mipmap-xxxhdpi/rough_terrain.png"
+    }
+]

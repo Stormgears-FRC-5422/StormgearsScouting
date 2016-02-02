@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homeScreenLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/no_border"
+    android:paddingLeft="@dimen/no_border"
+    android:paddingRight="@dimen/no_border"
+    android:paddingTop="@dimen/no_border"
+    tools:context="com.example.stormgearsscouting.MainMenu">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/no_border"
+        android:paddingLeft="@dimen/no_border"
+        android:paddingRight="@dimen/no_border"
+        android:paddingTop="@dimen/no_border">
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblInstructions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnUpdateEventCode"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="100dp"
+                android:gravity="fill"
+                android:text="The event code can be found on the event&apos;s twitter page. You will most likely be provided with the event code at the event by a team member. Make sure to tap &quot;Update Event Code&quot; in order to activate the event code." />
+
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:adjustViewBounds="false"
+                android:baselineAlignBottom="false"
+                android:cropToPadding="true"
+                android:src="@drawable/stormgears_scouting_logo" />
+
+            <Button
+                android:id="@+id/btnOpenPitScoutForm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/btnOpenScoutForm"
+                android:layout_alignRight="@+id/btnOpenScoutForm"
+                android:layout_below="@+id/btnOpenScoutForm"
+                android:text="Pit Scouting Form" />
+
+            <TextView
+                android:id="@+id/lblTypeEventCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnOpenPitScoutForm"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="Type in the event code below:" />
+
+            <Button
+                android:id="@+id/btnUpdateEventCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/btnOpenPitScoutForm"
+                android:layout_below="@+id/txtEventCode"
+                android:text="Update Event Code"
+                android:layout_alignEnd="@+id/btnOpenPitScoutForm" />
+
+            <EditText
+                android:id="@+id/txtEventCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/btnUpdateEventCode"
+                android:layout_alignRight="@+id/btnOpenPitScoutForm"
+                android:layout_below="@+id/lblTypeEventCode"
+                android:ems="10"
+                android:inputType="text"
+                android:maxHeight="16dp"
+                android:singleLine="true">
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/btnOpenScoutForm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgLogo"
+                android:layout_centerHorizontal="true"
+                android:text="Match Scouting Form" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
