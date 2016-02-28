@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/no_border"
     android:paddingRight="@dimen/no_border"
     android:paddingTop="@dimen/no_border"
-    tools:context="com.example.stormgearsscouting.MatchScoutingHelp">
+    tools:context="org.stormgearsfrc.stormgearsscouting.MatchScoutingHelp">
 
     <ScrollView
         android:layout_width="match_parent"

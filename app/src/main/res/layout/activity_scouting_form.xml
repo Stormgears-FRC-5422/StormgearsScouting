@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/no_border"
     android:paddingRight="@dimen/no_border"
     android:paddingTop="@dimen/no_border"
-    tools:context="com.example.stormgearsscouting.ScoutingForm">
+    tools:context="org.stormgearsfrc.stormgearsscouting.ScoutingForm">
 
     <ScrollView
         android:id="@+id/scrollView1"
@@ -167,10 +167,53 @@
                 android:text="   Number of High Goals (Auto)"
                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
-            <RelativeLayout
+            <GridLayout
                 android:layout_width="match_parent"
-                android:layout_height="36dp"
-                android:id="@+id/layoutNumPickAH" />
+                android:layout_height="39dp"
+                android:id="@+id/gridAutoHighPicker"
+                android:columnCount="3"
+                android:rowCount="1"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:id="@+id/btnAHMinus"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_margin="0dp" />
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="0"
+                    android:id="@+id/lblAHNum"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/btnAHMinus"
+                    android:layout_column="1"
+                    android:layout_row="0"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:id="@+id/btnAHPlus"
+                    android:layout_marginStart="33dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/lblAHNum"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:layout_margin="0dp" />
+            </GridLayout>
 
             <GridLayout
                 android:layout_width="match_parent"
@@ -189,7 +232,7 @@
                     android:layout_row="0" />
 
                 <Spinner
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/spnID0DefenseAutoStatus"
                     android:layout_row="0"
@@ -206,7 +249,7 @@
                     android:layout_row="1" />
 
                 <Spinner
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/spnID1DefenseAutoStatus"
                     android:layout_row="1"
@@ -223,7 +266,7 @@
                     android:layout_row="2" />
 
                 <Spinner
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/spnID2DefenseAutoStatus"
                     android:layout_row="2"
@@ -240,7 +283,7 @@
                     android:layout_row="3" />
 
                 <Spinner
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/spnID3DefenseAutoStatus"
                     android:layout_row="3"
@@ -257,7 +300,7 @@
                     android:layout_row="4" />
 
                 <Spinner
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/spnID4DefenseAutoStatus"
                     android:layout_row="4"
@@ -274,7 +317,7 @@
                     android:layout_row="5" />
 
                 <Spinner
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/spnID5DefenseAutoStatus"
                     android:layout_row="5"
@@ -291,7 +334,7 @@
                     android:layout_row="6" />
 
                 <Spinner
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/spnID6DefenseAutoStatus"
                     android:layout_row="6"
@@ -308,7 +351,7 @@
                     android:layout_row="7" />
 
                 <Spinner
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/spnID7DefenseAutoStatus"
                     android:layout_row="7"
@@ -325,7 +368,7 @@
                     android:layout_row="8" />
 
                 <Spinner
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/spnID8DefenseAutoStatus"
                     android:layout_row="8"
@@ -355,7 +398,7 @@
                 android:id="@+id/gridTeleopDefenses" >
 
                 <Spinner
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/spnID0DefenseTeleopStatus"
                     android:layout_row="0"
@@ -363,7 +406,7 @@
                     android:entries="@array/teleop_defense_status" />
 
                 <Spinner
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/spnID1DefenseTeleopStatus"
                     android:layout_row="1"
@@ -371,7 +414,7 @@
                     android:entries="@array/teleop_defense_status" />
 
                 <Spinner
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/spnID2DefenseTeleopStatus"
                     android:layout_row="2"
@@ -379,7 +422,7 @@
                     android:entries="@array/teleop_defense_status" />
 
                 <Spinner
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/spnID3DefenseTeleopStatus"
                     android:layout_row="3"
@@ -387,7 +430,7 @@
                     android:entries="@array/teleop_defense_status" />
 
                 <Spinner
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/spnID4DefenseTeleopStatus"
                     android:layout_row="4"
@@ -395,7 +438,7 @@
                     android:entries="@array/teleop_defense_status" />
 
                 <Spinner
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/spnID5DefenseTeleopStatus"
                     android:layout_row="5"
@@ -403,7 +446,7 @@
                     android:entries="@array/teleop_defense_status" />
 
                 <Spinner
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/spnID6DefenseTeleopStatus"
                     android:layout_row="6"
@@ -411,7 +454,7 @@
                     android:entries="@array/teleop_defense_status" />
 
                 <Spinner
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/spnID7DefenseTeleopStatus"
                     android:layout_row="7"
@@ -419,7 +462,7 @@
                     android:entries="@array/teleop_defense_status" />
 
                 <Spinner
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/spnID8DefenseTeleopStatus"
                     android:layout_row="8"
@@ -510,14 +553,245 @@
             </GridLayout>
 
             <TextView
-                android:id="@+id/lblTotalAlliancePoints"
+                android:id="@+id/lblTeleLowGoals"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="   Total Alliance Points"
+                android:text="   Number of Low Goals (Teleop)"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:id="@+id/gridTeleLowPicker"
+                android:columnCount="3"
+                android:rowCount="1" >
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:id="@+id/btnTLMinus"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_margin="0dp" />
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="0"
+                    android:id="@+id/lblTLNum"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/btnTLMinus"
+                    android:layout_column="1"
+                    android:layout_row="0"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:id="@+id/btnTLPlus"
+                    android:layout_marginStart="33dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/lblTLNum"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:layout_margin="0dp" />
+            </GridLayout>
+
+            <TextView
+                android:id="@+id/lblTeleHighGoals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Number of High Goals (Teleop)"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:id="@+id/gridTeleHighPicker"
+                android:columnCount="3"
+                android:rowCount="1"
+                android:layout_gravity="center_horizontal" >
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:id="@+id/btnTHMinus"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_margin="0dp" />
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="0"
+                    android:id="@+id/lblTHNum"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/btnTHMinus"
+                    android:layout_column="1"
+                    android:layout_row="0"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:id="@+id/btnTHPlus"
+                    android:layout_marginStart="33dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/lblTHNum"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:layout_margin="0dp" />
+            </GridLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" Extras"
+                android:id="@+id/lblExtras" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Outer Works Breached"
+                android:id="@+id/chkBreach" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Opponent&apos;s Castle Captured"
+                android:id="@+id/chkCapture" />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:id="@+id/progressBar4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="  In terms of grappling to the castle, the robot..."
+                android:id="@+id/lblGrappling" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spnCastleStatus"
+                android:entries="@array/castle_status" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="   "
+                android:id="@+id/textView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="  Number of Fouls"
+                android:id="@+id/lblFouls" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/txtFouls" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="  Comments"
+                android:id="@+id/lblComments" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtComments"
+                android:lines="4"
+                android:maxLength="140" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="  The robot was mainly..."
+                android:id="@+id/lblOffDef" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/grpDefOff">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Offensive"
+                    android:id="@+id/optOffensive"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Defensive"
+                    android:id="@+id/optDefensive" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="   "
+                android:id="@+id/lblSpacer" />
+
+            <TextView
+                android:id="@+id/lblTotalPointsRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Total Alliance Points (Red)"
                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
             <EditText
-                android:id="@+id/txtTotalPoints"
+                android:id="@+id/txtTotalPointsRed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/lblTotalPointsBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Total Alliance Points (Blue)"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/txtTotalPointsBlue"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"

@@ -12,12 +12,12 @@
         "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_activity_chooser_view_list_item.xml"
-    },
-    {
         "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_action_bar_decor.xml",
         "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_action_bar_decor.xml"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.stormgearsscouting"
+    package="com.stormgearsfrc.stormgearsscouting"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -13,18 +13,17 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-
-    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
-        android:name="com.example.stormgearsscouting.StormgearsScouting"
+        android:name="org.stormgearsfrc.stormgearsscouting.StormgearsScouting"
         android:allowBackup="true"
         android:icon="@drawable/stormgears_scouting_icon"
         android:label="@string/app_name"
         android:persistent="false"
         android:theme="@style/Theme.AppCompat" >
         <activity
-            android:name="com.example.stormgearsscouting.MainMenu"
+            android:name="org.stormgearsfrc.stormgearsscouting.MainMenu"
             android:label="@string/app_name"
             android:windowSoftInputMode="adjustResize" >
             <intent-filter>
@@ -34,38 +33,38 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.stormgearsscouting.ScoutingForm"
+            android:name="org.stormgearsfrc.stormgearsscouting.ScoutingForm"
             android:label="@string/title_activity_scouting_form"
-            android:parentActivityName="com.example.stormgearsscouting.MainActivity"
+            android:parentActivityName="org.stormgearsfrc.stormgearsscouting.MainMenu"
             android:windowSoftInputMode="adjustResize" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.MainMenu" />
+                android:value="org.stormgearsfrc.stormgearsscouting.MainMenu" />
         </activity>
         <activity
-            android:name="com.example.stormgearsscouting.ScoutingDataViewer"
+            android:name="org.stormgearsfrc.stormgearsscouting.ScoutingDataViewer"
             android:label="@string/title_activity_scouting_data_viewer"
-            android:parentActivityName="com.example.stormgearsscouting.MainMenu" >
+            android:parentActivityName="org.stormgearsfrc.stormgearsscouting.MainMenu" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.stormgearsscouting.MainMenu" />
+                android:value="org.stormgearsfrc.stormgearsscouting.MainMenu" />
         </activity>
         <activity
-            android:name="com.example.stormgearsscouting.Settings"
+            android:name="org.stormgearsfrc.stormgearsscouting.Settings"
             android:label="@string/title_activity_settings"
-            android:parentActivityName="com.example.stormgearsscouting.MainMenu"
+            android:parentActivityName="org.stormgearsfrc.stormgearsscouting.MainMenu"
             android:windowSoftInputMode="adjustResize" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.stormgearsscouting.MainMenu" />
+                android:value="org.stormgearsfrc.stormgearsscouting.MainMenu" />
         </activity>
         <activity
-            android:name="com.example.stormgearsscouting.BluetoothSender"
+            android:name="org.stormgearsfrc.stormgearsscouting.BluetoothSender"
             android:label="@string/title_activity_bluetooth_sender" />
         <activity
-            android:name="com.example.stormgearsscouting.PitScoutingForm"
+            android:name="org.stormgearsfrc.stormgearsscouting.PitScoutingForm"
             android:label="@string/title_activity_pit_scouting_form"
-            android:parentActivityName="com.example.stormgearsscouting.MainMenu"
+            android:parentActivityName="org.stormgearsfrc.stormgearsscouting.MainMenu"
             android:windowSoftInputMode="adjustResize" />
         <!--
              ATTENTION: This was auto-generated to add Google Play services to your project for
@@ -76,12 +75,12 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name="com.example.stormgearsscouting.MatchScoutingHelp"
+            android:name="org.stormgearsfrc.stormgearsscouting.MatchScoutingHelp"
             android:label="@string/title_activity_match_scouting_help"
-            android:parentActivityName="com.example.stormgearsscouting.ScoutingForm" >
+            android:parentActivityName="org.stormgearsfrc.stormgearsscouting.ScoutingForm" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.stormgearsscouting.ScoutingForm" />
+                android:value="org.stormgearsfrc.stormgearsscouting.ScoutingForm" />
         </activity>
     </application>
 

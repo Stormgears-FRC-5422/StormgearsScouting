@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/stormgears_scouting_icon.png",
-        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/drawable-mdpi/stormgears_scouting_icon.png"
-    },
-    {
         "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_full_open_on_phone.png",
         "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/drawable-mdpi/common_full_open_on_phone.png"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/stormgears_scouting_icon.png",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/drawable-mdpi/stormgears_scouting_icon.png"
     },
     {
         "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_ab_back_holo_light.png",
@@ -32,12 +32,12 @@
         "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_ab_stacked_transparent_light_holo.9.png"
     },
     {
-        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_spinner_ab_default_holo_dark.9.png",
-        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_spinner_ab_default_holo_dark.9.png"
-    },
-    {
         "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_search_selected_holo_light.9.png",
         "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_textfield_search_selected_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_spinner_ab_default_holo_dark.9.png",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_spinner_ab_default_holo_dark.9.png"
     },
     {
         "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png",
@@ -64,12 +64,12 @@
         "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_list_divider_holo_light.9.png"
     },
     {
-        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_search_right_default_holo_light.9.png",
-        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_textfield_search_right_default_holo_light.9.png"
-    },
-    {
         "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_search_default_holo_light.9.png",
         "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_textfield_search_default_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_search_right_default_holo_light.9.png",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_textfield_search_right_default_holo_light.9.png"
     },
     {
         "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_search_right_default_holo_dark.9.png",
@@ -148,12 +148,12 @@
         "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_ab_solid_dark_holo.9.png"
     },
     {
-        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_cab_done_holo_light.png",
-        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_ic_cab_done_holo_light.png"
-    },
-    {
         "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/rock_wall.png",
         "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/drawable-mdpi/rock_wall.png"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_cab_done_holo_light.png",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_ic_cab_done_holo_light.png"
     },
     {
         "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_search_default_holo_dark.9.png",
@@ -224,24 +224,24 @@
         "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_ab_stacked_transparent_dark_holo.9.png"
     },
     {
-        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
-        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
         "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/drawbridge.png",
         "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/drawable-mdpi/drawbridge.png"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png"
     },
     {
         "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_divider_holo_dark.9.png",
         "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_list_divider_holo_dark.9.png"
     },
     {
-        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_search_right_selected_holo_light.9.png",
-        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_textfield_search_right_selected_holo_light.9.png"
-    },
-    {
         "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/portcullis.png",
         "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/drawable-mdpi/portcullis.png"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_search_right_selected_holo_light.9.png",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_textfield_search_right_selected_holo_light.9.png"
     },
     {
         "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/rough_terrain.png",

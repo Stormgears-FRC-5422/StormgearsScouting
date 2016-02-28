@@ -16,12 +16,12 @@
         "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/mipmap-hdpi/rough_terrain.png"
     },
     {
-        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/moat.png",
-        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/mipmap-hdpi/moat.png"
-    },
-    {
         "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/rock_wall.png",
         "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/mipmap-hdpi/rock_wall.png"
+    },
+    {
+        "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/moat.png",
+        "source": "/Users/michael/StudioProjects/StormgearsScouting/app/src/main/res/mipmap-hdpi/moat.png"
     },
     {
         "merged": "/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/drawbridge.png",

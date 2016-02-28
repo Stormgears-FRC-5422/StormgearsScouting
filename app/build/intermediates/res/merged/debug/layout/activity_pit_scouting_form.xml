@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/no_border"
     android:paddingRight="@dimen/no_border"
     android:paddingTop="@dimen/no_border"
-    tools:context="com.example.stormgearsscouting.PitScoutingForm">
+    tools:context="org.stormgearsfrc.stormgearsscouting.PitScoutingForm">
 
     <ScrollView
         android:id="@+id/scrollView1"
@@ -120,6 +120,84 @@
                 android:entries="@array/drive_train_types" />
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="  Robot Information"
+                android:id="@+id/lblRobotInfo" />
+
+            <ProgressBar
+                android:id="@+id/progressBar2"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Top 3 Defenses They Can Cross"
+                android:id="@+id/lblTopDefenses" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/gridTopDefenses"
+                android:rowCount="3"
+                android:columnCount="3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  #1"
+                    android:id="@+id/lblPDef1"
+                    android:layout_row="0"
+                    android:layout_column="0" />
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spnPDef1"
+                    android:layout_column="1"
+                    android:layout_row="0"
+                    android:entries="@array/defenses" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  #2"
+                    android:id="@+id/lblPDef2"
+                    android:layout_row="1"
+                    android:layout_column="0" />
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spnPDef2"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:entries="@array/defenses" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  #3"
+                    android:id="@+id/lblPDef3"
+                    android:layout_row="2"
+                    android:layout_column="0" />
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spnPDef3"
+                    android:layout_column="1"
+                    android:layout_row="2"
+                    android:entries="@array/defenses" />
+            </GridLayout>
+
+            <TextView
                 android:id="@+id/lblPStrengths"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -149,11 +227,32 @@
                 android:inputType="textMultiLine"
                 android:lines="3" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="  How were you treated by the members you interviewed?"
+                android:id="@+id/lblPTeamBehavior" />
+
             <ProgressBar
-                android:id="@+id/progressBar2"
                 style="?android:attr/progressBarStyleHorizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBar5" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPComments"
+                android:lines="3"
+                android:maxLength="140" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit Pit Scouting Form"
+                android:id="@+id/btnPSubmit" />
+
         </LinearLayout>
 
     </ScrollView>

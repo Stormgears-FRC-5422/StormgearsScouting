@@ -3,13 +3,13 @@
     <!-- These settings headers are only used on tablets. -->
 
     <header
-        android:fragment="com.example.stormgearsscouting.Settings$GeneralPreferenceFragment"
+        android:fragment="org.stormgearsfrc.stormgearsscouting.Settings$GeneralPreferenceFragment"
         android:title="@string/pref_header_general" />
     <header
-        android:fragment="com.example.stormgearsscouting.Settings$NotificationPreferenceFragment"
+        android:fragment="org.stormgearsfrc.stormgearsscouting.Settings$NotificationPreferenceFragment"
         android:title="@string/pref_header_notifications" />
     <header
-        android:fragment="com.example.stormgearsscouting.Settings$DataSyncPreferenceFragment"
+        android:fragment="org.stormgearsfrc.stormgearsscouting.Settings$DataSyncPreferenceFragment"
         android:title="@string/pref_header_data_sync" />
 
 </preference-headers>

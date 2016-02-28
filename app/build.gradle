@@ -5,9 +5,11 @@ android {
     buildToolsVersion '19.1.0'
 
     defaultConfig {
-        applicationId "com.example.stormgearsscouting"
+        applicationId "com.stormgearsfrc.stormgearsscouting"
         minSdkVersion 19
         targetSdkVersion 19
+        versionCode 1
+        versionName "1.0"
     }
 
     buildTypes {

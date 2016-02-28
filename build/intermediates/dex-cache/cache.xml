@@ -1,2 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-appindexing-8.1.0_3a1c7340305042e85153d4e2e94de1002fc44ef4.jar" />
+    </item>
+    <item
+        jar="/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/pre-dexed/release/internal_impl-22.2.0_0ca739ac2a1b139806757b282806b6226a327696.jar" />
+    </item>
+    <item
+        jar="/Users/michael/StudioProjects/StormgearsScouting/app/libs/opencsv-3.5.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="2e88bd2818506573280599398f4198a04b2b2c8c">
+        <dex dex="/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/pre-dexed/release/opencsv-3.5_5b144cd40701441b08b1c01a4b13a612adbfcd3c.jar" />
+    </item>
+    <item
+        jar="/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-19.1.0_5c777de0c739eb2cb51183fa8604de132dd3fd05.jar" />
+    </item>
+    <item
+        jar="/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-22.2.0_c8dd95a08c9a0aa78a634b3d9ec5f526ed551110.jar" />
+    </item>
+    <item
+        jar="/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-basement-8.1.0_eba1eb1b4b2786135ccd1107367a2121c9806335.jar" />
+    </item>
+    <item
+        jar="/Users/michael/android-sdks/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/pre-dexed/release/support-annotations-22.2.0_e86c89eb95b6ec113d0351548707c8f7e8d85699.jar" />
+    </item>
+    <item
+        jar="/Users/michael/StudioProjects/StormgearsScouting/app/libs/googleformuploader.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="c778b10662447e6f781ed4daac82e06ce29b55c4">
+        <dex dex="/Users/michael/StudioProjects/StormgearsScouting/app/build/intermediates/pre-dexed/release/googleformuploader_9395654ecb366f7153a44f4a3d20a0acf35e587f.jar" />
+    </item>
+
+</items>

@@ -40,6 +40,24 @@
         <item>Crossed Once</item>
         <item>Crossed Twice</item>
     </string-array>
+    <string-array name="defenses">
+        <item>Low Bar</item>
+        <item>Portcullis</item>
+        <item>Chival de Frise</item>
+        <item>Moat</item>
+        <item>Ramparts</item>
+        <item>Drawbridge</item>
+        <item>Sallyport</item>
+        <item>Rock Wall</item>
+        <item>Rough Terrain</item>
+    </string-array>
+    <string-array name="castle_status">
+        <item>Did Nothing</item>
+        <item>Drove Near Castle</item>
+        <item>Grappled Onto Castle</item>
+        <item>Grappled/Lifted Part Way</item>
+        <item>Grappled/Lifted All The Way</item>
+    </string-array>
 
     <!-- Example settings for Data & Sync -->
     <string name="pref_header_data_sync">Data &amp; sync</string>
